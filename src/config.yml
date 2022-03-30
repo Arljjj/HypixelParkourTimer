@@ -9,4 +9,4 @@ msg:
   parkour-over-line1: "§e§l你的时间是${time},并没有打破你的最快纪录,${time2},再挑战一下,争取打破记录吧!§r"
   parkour-over-line2: "§e§l你完成了跑酷挑战,时间${time}.§r"
   parkour-failed: "§c§l跑酷挑战失败!你瞬间移动了§raaaa"
-
+  test: "hahahahahaha"
