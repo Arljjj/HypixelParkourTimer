@@ -1,0 +1,12 @@
+msg:
+  parkour-start-line1: "§e§l跑酷挑战已开始!§r"
+  parkour-start-line2: "§e使用/parkour checkpoint传送至最后你到达的记录点或使用/parkour cancel以取消跑酷！§r"
+  time-reset: "§e你的时间已被重置为00:00!快点赶到终点吧!"
+  reach-checkpoint-line1: "§e§l你到达了记录点${pointNo},用时${time}.§r"
+  reach-checkpoint-line2: "§7你完成了这个部分的跑酷,用时:${time}§r"
+  reach-checkpoint-line3: "§7你完成了这个部分的跑酷,用时:${time},成功超越了你先前的最佳§g用时${time2}§r"
+  #TODO 更正颜色格式化代码
+  parkour-over-line1: "§e§l你的时间是${time},并没有打破你的最快纪录,${time2},再挑战一下,争取打破记录吧!§r"
+  parkour-over-line2: "§e§l你完成了跑酷挑战,时间${time}.§r"
+  parkour-failed: "§c§l跑酷挑战失败!你瞬间移动了§r"
+

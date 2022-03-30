@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ParkourTimer">
+    <output-path>$PROJECT_DIR$/out/artifacts/ParkourTimer</output-path>
+    <root id="archive" name="ParkourTimer.jar">
+      <element id="module-output" name="HypixelParkourTimer" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+name: ParkourTimer
+main: com.mofec.parkour.ParkourTimer
+version: 0.1
+author: Mofec_x
+
+#命令
+commands:
+  parkour:
+    aliases:
+      - "pkr"
+    usage: |
+      §a/parkour cancel§r : 取消跑酷
+      §a/parkour checkpoint§r : 回到最近的存档点
+      §a/parkour create <Name> [x] [y] [z]§r : 取消跑酷
+      §a/parkour set <Name> <type>§r : 取消跑酷
+    description: "Commands for ParkourTimer"
