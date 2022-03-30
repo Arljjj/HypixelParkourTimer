@@ -6,21 +6,45 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class Commander implements CommandExecutor {
-    FileConfiguration configer = ParkourTimer.instance.getConfig();
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
-        if (!"parkour".equals(command.getName())) {
-            return false;
-        }
-        sender.sendMessage(configer.getString("msg.parkour-start-line1"));
-        sender.sendMessage(configer.getString("msg.parkour-start-line2"));
-        sender.sendMessage(configer.getString("msg.time-reset"));
-        sender.sendMessage(configer.getString("msg.reach-checkpoint-line1"));
-        sender.sendMessage(configer.getString("msg.reach-checkpoint-line2"));
-        sender.sendMessage(configer.getString("msg.reach-checkpoint-line3"));
-        sender.sendMessage(configer.getString("msg.parkour-over-line1"));
-        sender.sendMessage(configer.getString("msg.parkour-over-line2"));
-        sender.sendMessage(configer.getString("msg.parkour-failed"));
-        return true;
+
+        return false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        test=========================================================
+//        if (!"parkour".equals(command.getName())) {
+//            return false;
+//        }
+//        sender.sendMessage(configer.getString("msg.parkour-start-line1"));
+//        sender.sendMessage(configer.getString("msg.parkour-start-line2"));
+//        sender.sendMessage(configer.getString("msg.time-reset"));
+//        sender.sendMessage(configer.getString("msg.reach-checkpoint-line1"));
+//        sender.sendMessage(configer.getString("msg.reach-checkpoint-line2"));
+//        sender.sendMessage(configer.getString("msg.reach-checkpoint-line3"));
+//        sender.sendMessage(configer.getString("msg.parkour-over-line1"));
+//        sender.sendMessage(configer.getString("msg.parkour-over-line2"));
+//        sender.sendMessage(configer.getString("msg.parkour-failed"));
+//        return true;
+
+
+
     }
+//    FileConfiguration configer = ParkourTimer.instance.getConfig();
 }
